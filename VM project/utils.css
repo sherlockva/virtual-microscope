@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(68, 80, 82, 0.641);
+}
+
+.nav{
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.container{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+}
