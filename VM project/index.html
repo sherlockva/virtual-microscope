@@ -67,24 +67,34 @@
       position: relative;
     }
 
-    .thinSection .thinSection-buttons{
+    .thinSection .thinSection-button-container{
       position: absolute;
-      top: 0px;
+      top: 7px;
+      min-width: 100%;
+      height: 370px;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
+      flex-direction: column;
+    }
+
+    .thinSection .thinSection-buttons{
+      display: flex;
+      justify-content: space-around;
       flex-direction: row;
     }
 
-    .thinSection-buttons button{
+    .thinSection-button-container button{
+      width: 100px;
+      height: 100px;
       border: 0px;
-      padding: 2rem;
+      margin: 10px;
       color: white;
       background: rgba(0, 128, 0, 0.342);
-      text-align: center;
       font-size: large;
+      border-radius: 50%;
     }
 
-    .thinSection-buttons button:hover{
+    .thinSection-button-container button:hover{
       background: rgba(113, 1, 13, 0.342);
     }
 
@@ -170,13 +180,35 @@
     <div class="thinSection m-5 w-50">
       <div class="thinSection-image">
         <img src="./photos/thin_section_comp.JPG" alt="">
-        <div class="thinSection-buttons w-100">
-           <a href="index.html"><button>A</button></a>
-           <a href="sector2.html"><button>B</button></a>
-           <a href="sector3.html"><button>C</button></a>
+        <div class="thinSection-button-container">
+          <div class="thinSection-buttons w-100">
+            <a href="index.html"><button></button></a>
+            <a href="sector2.html"><button></button></a>
+            <a href="sector3.html"><button></button></a>
+            <a href="sector3.html"><button></button></a>
+         </div>
+          <div class="thinSection-buttons w-100">
+            <a href="index.html"><button></button></a>
+            <a href="sector2.html"><button></button></a>
+            <a href="sector3.html"><button></button></a>
+            <a href="sector3.html"><button></button></a>
+         </div>
+          <div class="thinSection-buttons w-100">
+            <a href="index.html"><button></button></a>
+            <a href="sector2.html"><button></button></a>
+            <a href="sector3.html"><button></button></a>
+            <a href="sector3.html"><button></button></a>
+         </div>
         </div>
       </div>
+
+      <div class="switch">
+        <a href="http://" >XPL</a>
+        <a href="http://" >PPL</a>
+      </div>
     </div>
+
+
 
   </div>
 
